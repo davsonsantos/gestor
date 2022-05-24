@@ -1,0 +1,38 @@
+{
+  "name": "davsonsantos/gestor",
+  "description": "Gerenciamento de Delivery",
+  "minimum-stability": "stable",
+  "authors": [
+    {
+      "name": "Davson N. Santos",
+      "email": "contato@davtech.com.br",
+      "homepage": "https://www.davtech.com.br",
+      "role": "Developer"
+    }
+  ],
+  "config": {
+    "vendor-dir": "vendor"
+  },
+  "autoload": {
+    "psr-4": {
+      "Source\\": "source/"
+    },
+    "files": [
+      "source/Boot/Config.php",
+      "source/Boot/Helpers.php",
+      "source/Boot/Minify/Common.php"
+    ]
+  },
+  "require": {
+    "coffeecode/uploader": "2.0.*",
+    "coffeecode/paginator": "2.0.*",
+    "coffeecode/datalayer": "2.0.*",
+    "coffeecode/optimizer": "2.0.*",
+    "coffeecode/router": "2.0.*",
+    "coffeecode/cropper": "2.0.3",
+    "phpmailer/phpmailer": "6.6.0",
+    "league/plates": "3.*",
+    "matthiasmullie/minify": "1.3.66",
+    "fakerphp/faker" : "v1.13.0"
+  }
+}

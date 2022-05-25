@@ -19,7 +19,7 @@ if ($_SERVER['HTTP_HOST'] == 'localhost') {
     define("CONF_DB_NAME", "u470494612_gestor");
     define("CONF_DB_USER", "u470494612_gestor");
     define("CONF_DB_PASS", "Qo=7?7i9");
-    define("CONF_URL_ROOT", "https://app.davtech.com.br/gestor");
+    define("CONF_URL_ROOT", "https://gestor.davtech.com.br");
 }
 
 

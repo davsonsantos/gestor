@@ -16,10 +16,10 @@ if ($_SERVER['HTTP_HOST'] == 'localhost') {
     define("CONF_DB_DRIVE", "mysql");
     define("CONF_DB_HOST", "localhost");
     define("CONF_DB_PORT", "3306");
-    define("CONF_DB_NAME", "davtechc_gestor");
-    define("CONF_DB_USER", "davtechc_apps");
-    define("CONF_DB_PASS", "=KoK?jes]*B%");
-    define("CONF_URL_ROOT", "https://www.apps.davtech.com.br/gestor");
+    define("CONF_DB_NAME", "u470494612_gestor");
+    define("CONF_DB_USER", "u470494612_gestor");
+    define("CONF_DB_PASS", "Qo=7?7i9");
+    define("CONF_URL_ROOT", "https://app.davtech.com.br/gestor");
 }
 
 
